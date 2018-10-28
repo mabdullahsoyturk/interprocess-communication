@@ -58,6 +58,7 @@ int main(int argc, char *argv[]) {
 
         total_color_count += colorInfo[0];
         total_number_of_balls += colorInfo[1];
+        free(colorInfo);
     }
 
     output_file = fopen(output_file_name, "w");

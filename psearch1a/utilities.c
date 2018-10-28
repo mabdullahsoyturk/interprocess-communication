@@ -112,8 +112,13 @@ char** getColors(char *file_name_to_read) {
             }else {
                 strcat(outputs[i], single_row);
             }
+
+            free(single_row);
         }
     }
+
+    free(color_counts);
+    free(colorPointers);
 
     return outputs;
 }
