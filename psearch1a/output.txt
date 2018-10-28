@@ -1,4 +1,16 @@
 Probability:3/30
+input1.txt,yellow:3
+input1.txt,green:1
+input1.txt,red:2
+input1.txt,blue:3
 input1.txt,orange:1
+input2.txt,yellow:3
+input2.txt,green:1
+input2.txt,red:2
+input2.txt,blue:3
 input2.txt,orange:1
+input3.txt,yellow:3
+input3.txt,green:1
+input3.txt,red:2
+input3.txt,blue:3
 input3.txt,orange:1

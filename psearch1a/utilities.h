@@ -6,6 +6,7 @@
 #define PSEARCH1A_UTILITIES_H
 
 char* readFile(char *filename);
+char** getColors(char *file_name_to_read);
 char* getChildProbability(char *color_to_be_searched,char *file_name_to_read);
 int* getChildColorInfo(char *color_to_be_searched,char *file_name_to_read);
 

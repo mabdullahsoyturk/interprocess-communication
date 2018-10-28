@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/muhammet/CLionProjects/psearch1a/main.c" "/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/CMakeFiles/psearch1a.dir/main.c.o"
-  "/home/muhammet/CLionProjects/psearch1a/utilities.c" "/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/CMakeFiles/psearch1a.dir/utilities.c.o"
+  "/home/muhammet/CLionProjects/project1/psearch1a/main.c" "/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/CMakeFiles/psearch1a.dir/main.c.o"
+  "/home/muhammet/CLionProjects/project1/psearch1a/utilities.c" "/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/CMakeFiles/psearch1a.dir/utilities.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

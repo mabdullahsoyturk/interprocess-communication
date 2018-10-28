@@ -9,9 +9,9 @@
 #include <string.h>
 #include <errno.h>
 #include <math.h>
+#include <stdbool.h>
 
-char* readFile(char *filename)
-{
+char* readFile(char *filename) {
     char *content = NULL;
     long string_size;
     size_t read_size;
@@ -40,14 +40,90 @@ char* readFile(char *filename)
     return content;
 }
 
+char** getColors(char *file_name_to_read) {
+    char* content = readFile(file_name_to_read);
+    char* cpy = malloc(strlen(content) + 1);
+    strcpy(cpy, content);
+    char* cpy2 = malloc(strlen(content) + 1);
+    strcpy(cpy2, content);
+    char *seperators   = ",";
+    int number_of_balls = 0;
+
+    char* token = strtok(content, seperators);
+
+    while(token != NULL) {
+        number_of_balls++;
+        token = strtok(NULL, seperators);
+    }
+
+    char **colorPointers = malloc((number_of_balls+1) * sizeof(char*));
+    for (int i = 0; i < number_of_balls; i++) {
+        colorPointers[i] = malloc(10 * sizeof(char));
+    }
+
+    char* token2 = strtok(cpy, ",");
+
+    int counter = 0;
+    while(token2 != NULL) {
+
+        bool isAlreadyIncluded = false;
+
+        for(int i = 0; i < number_of_balls; i++) {
+            if(strcmp(token2, colorPointers[i]) == 0) {
+                isAlreadyIncluded = true;
+            }
+        }
+
+        if(!isAlreadyIncluded) {
+            colorPointers[counter] = token2;
+            counter++;
+        }
+
+        token2 = strtok(NULL, ",");
+    }
+
+    int *color_counts = malloc(sizeof(int) * counter);
+    for (int i = 0; i < counter; i++) {
+        color_counts[i] = 0;
+    }
+
+    char* token3 = strtok(cpy2, ",");
+
+    while(token3 != NULL) {
+
+        for(int i = 0; i < counter; i++) {
+            if(strcmp(token3, colorPointers[i]) == 0) {
+                color_counts[i]++;
+            }
+        }
+
+        token3 = strtok(NULL, ",");
+    }
+
+    char **outputs = malloc((counter) * sizeof(char*));
+    for (int i = 0; i < counter; i++) {
+        outputs[i] = malloc(1000 * sizeof(char));
+        for(int k = 0; k < counter; k++) {
+            char* single_row = malloc(30 * sizeof(char));
+            sprintf(single_row, "%s,%s:%d\n", file_name_to_read, colorPointers[k], color_counts[k]);
+
+            if(k == 0) {
+                strcpy(outputs[i], single_row);
+            }else {
+                strcat(outputs[i], single_row);
+            }
+        }
+    }
+
+    return outputs;
+}
+
 char* getChildProbability(char *color_to_be_searched,char *file_name_to_read) {
     char* content = readFile(file_name_to_read);
     int number_of_found = 0;
     int number_of_balls = 0;
 
-    char *seperators   = ",";
-
-    char* token = strtok(content, seperators);
+    char* token = strtok(content, ",");
 
     while(token != NULL) {
         number_of_balls++;
@@ -61,10 +137,12 @@ char* getChildProbability(char *color_to_be_searched,char *file_name_to_read) {
             number_of_found++;
         }
 
-        token = strtok(NULL, seperators);
+        token = strtok(NULL, ",");
 
         free(color);
     }
+
+    free(content);
 
     char* probability = malloc(sizeof(int) * 2 + sizeof(char) * 2);
     sprintf(probability, "%i/%i\n", number_of_found, number_of_balls);

@@ -8,4 +8,4 @@ utilities.o: utilities.c utilities.h
 	gcc -c utilities.c
 
 clean:
-	rm *.o *.t output
+	rm *.o *.t output.txt output

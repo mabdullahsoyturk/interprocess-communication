@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
         file_name_to_read = argv[3+i];
 
         if ((pid = fork()) < 0) {
-            perror("fork");
+            perror("fork failed");
             abort();
         } else if (pid == 0) {
             child_result = getChildProbability(color_to_be_searched, file_name_to_read);
@@ -31,6 +31,7 @@ int main(int argc, char *argv[]) {
 
             temp_output_file = fopen(temp_output_file_name, "w");
             fprintf(temp_output_file, "%s", child_result);
+            free(child_result);
             fclose(temp_output_file);
             exit(0);
         }
@@ -51,7 +52,6 @@ int main(int argc, char *argv[]) {
     int total_color_count = 0;
 
     for(int i = 0; i < number_of_inputs; i++) {
-
         sprintf(temp_output_file_name, "temp%d.t", i);
 
         int *colorInfo = getChildColorInfo(color_to_be_searched, temp_output_file_name);
@@ -68,16 +68,14 @@ int main(int argc, char *argv[]) {
 
         file_name_to_read = argv[3+i];
 
-        sprintf(temp_output_file_name, "temp%d.t", i);
-
-        int *colorInfo = getChildColorInfo(color_to_be_searched, temp_output_file_name);
-
-        total_number_of_balls += colorInfo[1];
-
         output_file = fopen(output_file_name, "a");
-        fprintf(output_file, "%s,%s:%d\n", file_name_to_read, color_to_be_searched, colorInfo[0]);
+        char** a = getColors(file_name_to_read);
+        fprintf(output_file, "%s", a[i]);
+
         fclose(output_file);
     }
+
+    free(temp_output_file_name);
 
     return EXIT_SUCCESS;
 }

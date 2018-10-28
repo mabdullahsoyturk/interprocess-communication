@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/muhammet/CLionProjects/psearch1a/cmake-build-debug"/>
+				<Option working_dir="/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/muhammet/CLionProjects/psearch1a/cmake-build-debug"/>
+				<Option working_dir="/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/muhammet/CLionProjects/psearch1a/cmake-build-debug"/>
+				<Option working_dir="/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="psearch1a">
-				<Option output="/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/psearch1a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/muhammet/CLionProjects/psearch1a/cmake-build-debug"/>
+				<Option output="/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/psearch1a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 psearch1a"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 psearch1a"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="psearch1a/fast">
-				<Option output="/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/psearch1a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/muhammet/CLionProjects/psearch1a/cmake-build-debug"/>
+				<Option output="/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/psearch1a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,23 +71,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 psearch1a/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 psearch1a/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/muhammet/CLionProjects/psearch1a/main.c">
+		<Unit filename="/home/muhammet/CLionProjects/project1/psearch1a/main.c">
 			<Option target="psearch1a"/>
 		</Unit>
-		<Unit filename="/home/muhammet/CLionProjects/psearch1a/utilities.c">
+		<Unit filename="/home/muhammet/CLionProjects/project1/psearch1a/utilities.c">
 			<Option target="psearch1a"/>
 		</Unit>
-		<Unit filename="/home/muhammet/CLionProjects/psearch1a/utilities.h">
+		<Unit filename="/home/muhammet/CLionProjects/project1/psearch1a/utilities.h">
 			<Option target="psearch1a"/>
 		</Unit>
-		<Unit filename="/home/muhammet/CLionProjects/psearch1a/CMakeLists.txt">
+		<Unit filename="/home/muhammet/CLionProjects/project1/psearch1a/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
