@@ -1,0 +1,4 @@
+Probability:3/30
+input1.txt,orange:1
+input2.txt,orange:1
+input3.txt,orange:1
