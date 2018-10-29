@@ -11,6 +11,8 @@
 
 #define READ_END 0
 #define WRITE_END 1
+#define SHARED_BETWEEN_PROCESSES 2
+#define BUFFER_SIZE 100
 
 sem_t* semaphores;
 int p[2];
@@ -42,7 +44,7 @@ int main(int argc, char *argv[]) {
     char *child_result;
 
     for (int i = 0; i <= number_of_inputs; i++) {
-        sem_init(&semaphores[i], number_of_inputs, 0);
+        sem_init(&semaphores[i], SHARED_BETWEEN_PROCESSES, 0);
     }
 
     sem_post(&semaphores[0]);
@@ -71,14 +73,14 @@ int main(int argc, char *argv[]) {
 
     free(child_result);
 
-    char buffer[100];
+    char buffer[BUFFER_SIZE];
     ssize_t number_of_bytes;
-    char *output_str = malloc(200);
+    char *output_str = malloc(BUFFER_SIZE * 3);
     close(p[WRITE_END]);
 
     for(int i = 0; i < number_of_inputs; i++) {
 
-        while((number_of_bytes = read(p[READ_END],buffer,100)) > 0)  {
+        while((number_of_bytes = read(p[READ_END],buffer,BUFFER_SIZE)) > 0)  {
             strcat(output_str, buffer);
             sprintf (buffer, "%s", buffer);
         }
