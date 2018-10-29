@@ -34,16 +34,11 @@ int main(int argc, char *argv[]) {
             free(child_result);
             fclose(temp_output_file);
             exit(0);
+        }else {
+            /* Wait for each child to finish its task. */
+            int status;
+            pid = wait(&status);
         }
-    }
-
-    /* Wait for each child to finish its task. */
-    int status;
-    int child_tracker = number_of_inputs;
-
-    while (child_tracker > 0) {
-        pid = wait(&status);
-        child_tracker--;
     }
 
     FILE *output_file;
