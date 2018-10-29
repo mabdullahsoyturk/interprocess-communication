@@ -69,6 +69,8 @@ int main(int argc, char *argv[]) {
         }
     }
 
+    free(child_result);
+
     char buffer[100];
     ssize_t number_of_bytes;
     char *output_str = malloc(200);
@@ -86,6 +88,7 @@ int main(int argc, char *argv[]) {
 
     FILE *output = fopen(output_file_name, "w");
     fprintf(output, "%s", output_str);
+    free(output_str);
     fclose(output);
 
     return EXIT_SUCCESS;
