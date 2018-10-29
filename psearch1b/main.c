@@ -10,6 +10,7 @@
 #include "utilities.h"
 
 sem_t* semaphores;
+#define SHARED_BETWEEN_PROCESSES 2
 
 int main(int argc, char *argv[]) {
 
@@ -45,8 +46,8 @@ int main(int argc, char *argv[]) {
     char *file_name_to_read;
     char *child_result;
 
-    for (int i = 0; i <= number_of_inputs; i++) {
-        sem_init(&semaphores[i], number_of_inputs, 0);
+    for (int i = 0; i <= number_of_inputs; i++) {  //initialize semaphores
+        sem_init(&semaphores[i], SHARED_BETWEEN_PROCESSES, 0);
     }
 
     sem_post(&semaphores[0]);
@@ -84,6 +85,10 @@ int main(int argc, char *argv[]) {
     FILE *output = fopen(output_file_name, "w");
     fprintf(output, "%s", output_str);
     fclose(output);
+
+    for(int i = 0; i <= number_of_inputs; i++) { //destroy semaphors
+        sem_destroy(&semaphores[i]);
+    }
 
     return EXIT_SUCCESS;
 }
