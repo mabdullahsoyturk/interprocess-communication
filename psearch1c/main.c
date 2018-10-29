@@ -91,5 +91,9 @@ int main(int argc, char *argv[]) {
     free(output_str);
     fclose(output);
 
+    for(int i = 0; i <= number_of_inputs; i++) { //destroy semaphors
+        sem_destroy(&semaphores[i]);
+    }
+
     return EXIT_SUCCESS;
 }

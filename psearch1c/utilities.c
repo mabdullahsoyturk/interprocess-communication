@@ -165,6 +165,8 @@ char* getChildProbability(char *color_to_be_searched,char *file_name_to_read) {
         free(color);
     }
 
+    free(content);
+
     char* probability = malloc(sizeof(int) * 2 + sizeof(char) * 2);
     sprintf(probability, "%s %s %i/%i\n", file_name_to_read, color_to_be_searched, number_of_found, number_of_balls);
 
