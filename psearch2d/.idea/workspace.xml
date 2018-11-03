@@ -12,20 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd8f2c09-4518-4a09-b1a0-38327844fe2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../psearch2c/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psearch2c/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psearch2c/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psearch2c/utilities.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psearch2cslave/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psearch2cslave/utilities.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../psearch2b/output.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2bslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2bslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2bslave/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/main.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2bslave/output" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2c/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,24 +37,28 @@
     <session id="374996847">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="h" value="1" />
+          <entry key="c" value="1" />
+          <entry key="h" value="3" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="ObjectiveC" value="4" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="1" />
+          <entry key="c" value="189" />
           <entry key="h" value="2" />
           <entry key="txt" value="6" />
         </counts>
@@ -64,35 +66,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="6" />
-          <entry key="ObjectiveC" value="3" />
+          <entry key="ObjectiveC" value="191" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-              <folding>
-                <element signature="e#20#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -182,18 +162,18 @@
       <option name="presentableId" value="Default" />
       <updated>1541237218598</updated>
       <workItem from="1541237219983" duration="10000" />
-      <workItem from="1541237818627" duration="433000" />
+      <workItem from="1541237818627" duration="3249000" />
+      <workItem from="1541265588250" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443000" />
+    <option name="totallyTimeSpent" value="3609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-11" width="1307" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2573471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,7 +184,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
@@ -223,25 +203,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/utilities.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#20#38#0" expanded="true" />
-          </folding>
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
