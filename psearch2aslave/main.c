@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
     output_str = (char *) mmap(0, size + strlen(child_result), PROT_WRITE, MAP_SHARED, file_descriptor, 0);
 
     if (output_str == MAP_FAILED)
-        perror("wowowow");
+        perror("Map failed!");
 
     int t;
 

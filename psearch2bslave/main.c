@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
     char *word_to_be_searched = argv[1];
     char *file_to_be_read = argv[2];
 
-    sem_t *semaphore = sem_open(SEMAPHORE_NAME, O_RDWR);
+    sem_t *semaphore = sem_open(SEMAPHORE_NAME, O_CREAT , S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP, 1);
     int shm_fd = shm_open(SHARED_MEMORY_OBJECT_NAME, O_RDWR, 0666);
 
     struct stat st;
@@ -37,11 +37,9 @@ int main(int argc, char *argv[]) {
         perror("sem_wait(3) failed on child");
     }
 
-    printf("PID %ld acquired semaphore\n", (long) getpid());
     char* child_result = getChildProbability(word_to_be_searched, file_to_be_read);
 
     ftruncate(shm_fd, size + strlen(child_result));
-    printf("%ludamn\n", size);
 
     char* output_str = (char*)mmap(0, size + strlen(child_result), PROT_WRITE, MAP_SHARED, shm_fd, 0);
 

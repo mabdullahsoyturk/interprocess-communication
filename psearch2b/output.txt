@@ -1,0 +1,3 @@
+input3.txt red 2/10
+input1.txt red 2/10
+input2.txt red 2/10

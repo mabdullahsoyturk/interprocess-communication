@@ -12,8 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6361e7c-c1b5-496c-947b-27d0c2f2491a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../psearch2dslave/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psearch2dslave/utilities.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2aslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/main.c" afterDir="false" />
@@ -22,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/../psearch2bslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2bslave/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/main.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2bslave/output" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2c/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2d/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/main.c" afterDir="false" />
     </list>
@@ -37,10 +36,10 @@
     <session id="1824495402">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -72,12 +71,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="95">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#20#38#0" expanded="true" />
               </folding>
@@ -186,17 +185,18 @@
       <workItem from="1541228281480" duration="25000" />
       <workItem from="1541229181493" duration="7848000" />
       <workItem from="1541239255159" duration="22000" />
+      <workItem from="1541239568595" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7997000" />
+    <option name="totallyTimeSpent" value="8061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-11" width="1307" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27084988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27561557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,7 +207,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
@@ -245,8 +245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="95">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#20#38#0" expanded="true" />
           </folding>

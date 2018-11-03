@@ -12,11 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f9fea8e-eaa8-4ae3-9245-191d3ac934e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SMO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SMO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../psearch1b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../psearch1c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psearch2c/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psearch2c/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psearch2c/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psearch2c/utilities.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psearch2cslave/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psearch2cslave/utilities.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +36,11 @@
     <session id="964537359">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="282">
+              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
               <folding>
                 <element signature="e#20#38#0" expanded="true" />
               </folding>
@@ -116,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,6 +134,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,18 +190,20 @@
       <workItem from="1540835768963" duration="638000" />
       <workItem from="1541066145447" duration="1849000" />
       <workItem from="1541143456911" duration="19000" />
+      <workItem from="1541228260306" duration="27000" />
+      <workItem from="1541228319255" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8528000" />
+    <option name="totallyTimeSpent" value="9167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="-11" width="1307" height="780" extended-state="6" />
+    <frame x="61" y="-4" width="1305" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2660842" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27561557" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34472048" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -257,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="282">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
           <folding>
             <element signature="e#20#38#0" expanded="true" />
           </folding>
