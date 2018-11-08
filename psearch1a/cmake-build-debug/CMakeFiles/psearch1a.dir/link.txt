@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/psearch1a.dir/main.c.o CMakeFiles/psearch1a.dir/utilities.c.o  -o psearch1a 

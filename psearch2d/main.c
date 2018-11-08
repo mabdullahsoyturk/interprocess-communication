@@ -9,7 +9,6 @@
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <linux/mman.h>
-#include "utilities.h"
 #include <mqueue.h>
 #include <errno.h>
 #define MESSAGE_LENGTH 1000
@@ -35,7 +34,7 @@ int main(int argc, char *argv[]) {
 
     for (int i = 0; i < number_of_inputs; i++) {
         input_file = argv[3 + i];
-        slave_location = "../psearch2dslave/output";
+        slave_location = "../psearch2dslave/psearch2dslave";
 
         if ((pid = fork()) < 0) {
             perror("fork failed");
@@ -55,7 +54,6 @@ int main(int argc, char *argv[]) {
             close(fd);
         }
     }
-
 
     fclose(output_file);
 

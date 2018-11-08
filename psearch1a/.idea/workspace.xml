@@ -12,11 +12,177 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea4fb623-3f10-453a-ba7d-affdd4fea00a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SMO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SMO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/psearch1a.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/psearch1a.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/psearch1a.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch1b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/CMakeFiles/psearch1b.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/psearch1b.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/cmake-build-debug/psearch1b.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1b/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1b/utilities.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch1c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/cmake-build-debug/psearch1c.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/cmake-build-debug/psearch1c.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../psearch1c/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../psearch1c/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../psearch1c/output" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch1c/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch1c/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/cmake-build-debug/psearch2a.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/cmake-build-debug/psearch2a.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2a/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2a/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/cmake-build-debug/psearch2aslave.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/cmake-build-debug/psearch2aslave.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2aslave/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2aslave/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/CMakeFiles/psearch2b.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/psearch2b.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/cmake-build-debug/psearch2b.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2b/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2b/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/cmake-build-debug/psearch2bslave.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/cmake-build-debug/psearch2bslave.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2bslave/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2bslave/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2c/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2c/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/cmake-build-debug/psearch2c.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2c/cmake-build-debug/psearch2c.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2c/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2c/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2c/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/CMakeFiles/psearch2cslave.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/psearch2cslave.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/cmake-build-debug/psearch2cslave.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2cslave/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2cslave/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/CMakeFiles/psearch2d.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/psearch2d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/cmake-build-debug/psearch2d.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2d/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2d/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2dslave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2dslave/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/cmake-build-debug/psearch2dslave.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2dslave/cmake-build-debug/psearch2dslave.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2dslave/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2dslave/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch2dslave/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/utilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch2dslave/utilities.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/CMakeFiles/psearch3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/cmake-build-debug/psearch3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/cmake-build-debug/psearch3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../psearch3/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/utilities.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psearch3/utilities.h" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,47 +246,62 @@
     <session id="-1533478639">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="8" />
+          <entry key="c" value="12" />
           <entry key="h" value="5" />
-          <entry key="makefile" value="3" />
-          <entry key="t" value="4" />
-          <entry key="txt" value="30" />
+          <entry key="makefile" value="9" />
+          <entry key="t" value="9" />
+          <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="13" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="ObjectiveC" value="17" />
+          <entry key="PLAIN_TEXT" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="2350" />
+          <entry key="c" value="2510" />
           <entry key="h" value="3" />
-          <entry key="makefile" value="11" />
+          <entry key="makefile" value="38" />
           <entry key="t" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2353" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="ObjectiveC" value="2513" />
+          <entry key="PLAIN_TEXT" value="40" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="64" column="10" selection-start-line="64" selection-end-line="65" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -144,6 +325,8 @@
       <find>malloc</find>
       <find>temp_output_file_name</find>
       <find>output_file</find>
+      <find>getChild</find>
+      <find>free</find>
     </findStrings>
     <replaceStrings>
       <replace>file_name_to_read</replace>
@@ -159,11 +342,11 @@
       <list>
         <option value="$PROJECT_DIR$/input2.txt" />
         <option value="$PROJECT_DIR$/input3.txt" />
-        <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/temp0.t" />
         <option value="$PROJECT_DIR$/utilities.h" />
-        <option value="$PROJECT_DIR$/input1.txt" />
         <option value="$PROJECT_DIR$/utilities.c" />
+        <option value="$PROJECT_DIR$/makefile" />
+        <option value="$PROJECT_DIR$/input1.txt" />
         <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
@@ -186,6 +369,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,7 +381,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,16 +446,22 @@
       <workItem from="1540738793556" duration="837000" />
       <workItem from="1540752696536" duration="15000" />
       <workItem from="1540798836743" duration="1134000" />
+      <workItem from="1541322334706" duration="590000" />
+      <workItem from="1541323097551" duration="454000" />
+      <workItem from="1541331533123" duration="1080000" />
+      <workItem from="1541337159472" duration="66000" />
+      <workItem from="1541338300324" duration="442000" />
+      <workItem from="1541347360544" duration="796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34788000" />
+    <option name="totallyTimeSpent" value="38216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-11" width="1307" height="780" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20810167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22954726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,7 +473,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32972136" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" visible="true" weight="0.32763976" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" weight="0.32763976" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.32972136" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -306,18 +495,26 @@
     <entry file="file://$PROJECT_DIR$/temp0" />
     <entry file="file://$PROJECT_DIR$/temp1" />
     <entry file="file://$PROJECT_DIR$/temp2" />
-    <entry file="file://$PROJECT_DIR$/temp2.t" />
-    <entry file="file://$PROJECT_DIR$/makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.c" />
+    <entry file="file://$PROJECT_DIR$/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -331,51 +528,18 @@
     <entry file="file://$PROJECT_DIR$/input1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp0.t">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp1.t">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="158" column="29" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
-          <folding>
-            <element signature="e#45#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/temp0.t" />
+    <entry file="file://$PROJECT_DIR$/temp1.t" />
+    <entry file="file://$PROJECT_DIR$/temp2.t" />
+    <entry file="file://$PROJECT_DIR$/output.txt" />
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="308">
+          <caret line="64" column="10" selection-start-line="64" selection-end-line="65" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

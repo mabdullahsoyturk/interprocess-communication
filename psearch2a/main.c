@@ -9,7 +9,6 @@
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <linux/mman.h>
-#include "utilities.h"
 
 int main(int argc, char *argv[]) {
 
@@ -20,7 +19,9 @@ int main(int argc, char *argv[]) {
     char* output_file_name = argv[3 + atoi(number_of_inputs_str)];
     int number_of_inputs = atoi(number_of_inputs_str);
 
-    int file_descriptor = (int)fopen(SHARED_MEMORY_OBJECT_NAME, "wr");
+    int file_descriptor;
+    FILE* file = fopen(SHARED_MEMORY_OBJECT_NAME, "wr");
+    file_descriptor = fileno(file);
     close(file_descriptor);
     struct stat st;
 
@@ -31,7 +32,7 @@ int main(int argc, char *argv[]) {
 
     for (int i = 0; i < number_of_inputs; i++) {
         input_file = argv[3 + i];
-        slave_location = "../psearch2aslave/output";
+        slave_location = "../psearch2aslave/psearch2aslave";
 
         if ((pid = fork()) < 0) {
             perror("fork failed");

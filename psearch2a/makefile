@@ -1,11 +1,8 @@
-output: main.o utilities.o
-	gcc main.o utilities.o -o output
+psearch2a: main.o
+	gcc main.o -o psearch2a
 
 main.o: main.c
 	gcc -c main.c
 
-utilities.o: utilities.c utilities.h
-	gcc -c utilities.c
-
 clean:
-	rm *.o *.t output.txt output
+	rm *.o output.txt psearch2a

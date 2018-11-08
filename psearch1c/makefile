@@ -1,13 +1,10 @@
 CC=gcc
 
-output: main.o utilities.o
-	$(CC) -pthread main.o utilities.o -o output
+psearch1c: main.o
+	$(CC) -pthread main.o -o psearch1c
 
-main.o: main.c utilities.o
+main.o: main.c
 	$(CC) -c main.c
 
-utilities.o: utilities.c utilities.h
-	$(CC) -c utilities.c
-
 clean:
-	rm *.o *.t output
+	rm *.o output.txt psearch1c

@@ -9,7 +9,6 @@
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <linux/mman.h>
-#include "utilities.h"
 #include <semaphore.h>
 #include <sys/shm.h>
 
@@ -18,7 +17,8 @@ sem_t* semaphore;
 int main(int argc, char *argv[]) {
 
     const char* SHARED_MEMORY_OBJECT_NAME = "SMO";
-    const char* SEMAPHORE_NAME = "/semaphorename12";
+    const char* SEMAPHORE_NAME = "/semaphorename15";
+    sem_unlink("/semaphorename15");
 
     char* word_to_be_searched = argv[1];
     char* number_of_inputs_str = argv[2];
@@ -32,10 +32,10 @@ int main(int argc, char *argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    /* Close the semaphore as we won't be using it in the parent process */
+    sem_init(semaphore, 1, 1);
+
     if (sem_close(semaphore) < 0) {
         perror("sem_close(3) failed");
-        /* We ignore possible sem_unlink(3) errors here */
         sem_unlink(SEMAPHORE_NAME);
         exit(EXIT_FAILURE);
     }
@@ -56,7 +56,7 @@ int main(int argc, char *argv[]) {
 
     for (int i = 0; i < number_of_inputs; i++) {
         input_file = argv[3 + i];
-        slave_location = "../psearch2bslave/output";
+        slave_location = "../psearch2bslave/psearch2bslave";
 
         if ((pids[i] = fork()) < 0) {
             perror("fork failed");
@@ -70,9 +70,10 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    for (int i = 0; i < sizeof(pids)/sizeof(pids[0]); i++)
+    for (int i = 0; i < sizeof(pids)/sizeof(pids[0]); i++) {
         if (waitpid(pids[i], NULL, 0) < 0)
             perror("waitpid(2) failed");
+    }
 
     shm_fd = shm_open(SHARED_MEMORY_OBJECT_NAME, O_RDONLY, 0666);
     if (shm_fd== -1) {

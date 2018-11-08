@@ -1,3 +1,0 @@
-/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/muhammet/CLionProjects/project1/psearch1a/cmake-build-debug/CMakeFiles/psearch1a.dir

@@ -1,13 +1,10 @@
 CC=gcc
 
-output: main.o utilities.o
-	$(CC) -pthread main.o utilities.o -o output -lrt
+psearch2dslave: main.o
+	$(CC) -pthread main.o -o psearch2dslave -lrt
 
-main.o: main.c utilities.o
+main.o: main.c
 	$(CC) -c main.c
 
-utilities.o: utilities.c utilities.h
-	$(CC) -c utilities.c
-
 clean:
-	rm *.o *.t output
+	rm *.o psearch2dslave
