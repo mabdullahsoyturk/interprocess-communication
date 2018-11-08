@@ -13,8 +13,9 @@ the following command line parameters: a string keyword (chosen color), number o
 files (n), input filenames, and an output filename. Number of input files will be greater than or
 equal to 1. Each input file is a text file; containing a sequence of lines. All of these lines may
 contain one or more strings. The output file will contain the probability (2/7) along with the
-count of balls of different colors in the format below:
-<probability>: <your result>
+count of balls of different colors in the format below:  
+  
+<probability>: <your result>  
 <input filename>, <color name>: <color count>. The output must be sorted according to first
 <input filename> and then <color name>. An example execution of your program should be:
 psearch orange 3 input1.txt input2.txt input3.txt output.txt
