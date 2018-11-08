@@ -15,7 +15,8 @@ equal to 1. Each input file is a text file; containing a sequence of lines. All 
 contain one or more strings. The output file will contain the probability (2/7) along with the
 count of balls of different colors in the format below:  
   
-<probability>: <your result>  
-<input filename>, <color name>: <color count>. The output must be sorted according to first
-<input filename> and then <color name>. An example execution of your program should be:
+input filename, color name: probability.  
+
+An example execution of your program should be:  
+  
 psearch orange 3 input1.txt input2.txt input3.txt output.txt
